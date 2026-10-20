@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | MUST Application Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <img class="logo" src="images/must-logo-small.jpg" alt="Mbarara University logo">
+
+    <h1>Create Account</h1>
+    <p class="subtitle">Fill in your details to start your application.</p>
+
+    <form action="#" method="post">
+
+      <div class="field">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Grace Atuhaire" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email" placeholder="e.g. applicant@example.com" required>
+      </div>
+
+      <div class="field">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g. 0772 123456" required>
+      </div>
+
+      <div class="field">
+        <label for="category">Application category</label>
+        <select id="category" name="category" required>
+          <option value="" selected disabled>Choose one...</option>
+          <option value="undergraduate">Undergraduate</option>
+          <option value="diploma">Diploma</option>
+          <option value="postgraduate">Postgraduate</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Minimum 6 characters" minlength="6" required>
+        <p class="hint">Must be at least 6 characters long.</p>
+      </div>
+
+      <div class="field">
+        <label for="confirm">Confirm password</label>
+        <input type="password" id="confirm" name="confirm" placeholder="Type password again" minlength="6" required>
+      </div>
+
+      <div class="check">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I confirm that the information given is correct.</label>
+      </div>
+
+      <button type="submit" class="btn">Create account</button>
+
+    </form>
+
+    <p class="bottom-text">Already have an account? <a href="login.html">Log in</a></p>
+
+  </div>
+
+</body>
+</html>

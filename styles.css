@@ -1,0 +1,130 @@
+/* ================================
+   MUST Application Portal - Simple Styles
+   ================================ */
+
+/* Give the whole page a light background */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #eef2f0;
+  color: #1c2b24;
+  margin: 0;
+  padding: 40px 16px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* The white box (card) that holds each form */
+.card {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;              /* centres the card */
+  background: #ffffff;
+  border: 1px solid #dbe4df;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  padding: 35px 30px;
+  box-sizing: border-box;
+}
+
+/* University logo */
+.logo {
+  display: block;
+  width: 90px;
+  height: auto;
+  margin: 0 auto 15px;         /* centres logo with space below */
+}
+
+/* Headings */
+h1 {
+  margin: 0 0 5px;
+  text-align: center;
+  font-size: 24px;
+  color: #0a4a2a;              /* MUST green */
+}
+
+.subtitle {
+  margin: 0 0 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #66746d;
+}
+
+/* Each form field */
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* The input boxes and dropdown */
+.field input,
+.field select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid #c6d2cb;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Highlight the box when the user clicks inside it */
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #0e6137;
+  box-shadow: 0 0 0 3px rgba(14, 97, 55, 0.15);
+}
+
+/* The tick-box rows */
+.check {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.check input {
+  margin-top: 3px;
+}
+
+/* Small note under a field */
+.hint {
+  font-size: 12px;
+  color: #66746d;
+  margin-top: 4px;
+}
+
+/* The submit button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #0e6137;         /* MUST green */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0a4a2a;
+}
+
+/* Links at the bottom of the card */
+.bottom-text {
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.bottom-text a {
+  color: #0e6137;
+  font-weight: 600;
+}
